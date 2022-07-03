@@ -5,7 +5,7 @@ import {Flex, Text} from "rebass";
 class Terminal extends Component {
     componentDidMount() {
         const options = {
-            strings: ['curl https://api.coherent.gg/v1/address/0x6dC30A42c431f58787A139BA2eC4543752Fb1395/transactions'],
+            strings: ['curl https://api.coherent.sh/v1/address/0x6dC30A42c431f58787A139BA2eC4543752Fb1395/transactions'],
             typeSpeed: 35,
             backSpeed: 50,
             showCursor: false,
@@ -20,7 +20,7 @@ class Terminal extends Component {
     }
 
     render() {
-        var json = "[{\"type\": \"nft_sale\", \"title\": \"Opensea Sale of Bored Ape #4321\", \"amount\": 8.3, \"metadata\": {\"nft\": {\"rarity\": 481, \"floor_price\": 81.2, \"image_url\": \"api.coherent.gg/nfts/images/ahgyf2rxz.png\"}}},{\"type\": \"swap\", \"title\": \"Swap ETH for UNI\", \"amount\": 321.8, \"metadata\": {\"swap\": {\"slippage\": 0.8}}}]"
+        var json = "[{\"type\": \"nft_sale\", \"title\": \"Opensea Sale of Bored Ape #4321\", \"amount\": 8.3, \"metadata\": {\"nft\": {\"rarity\": 481, \"floor_price\": 81.2, \"image_url\": \"api.coherent.sh/nfts/images/ahgyf2rxz.png\"}}},{\"type\": \"swap\", \"title\": \"Swap ETH for UNI\", \"amount\": 321.8, \"metadata\": {\"swap\": {\"slippage\": 0.8}}}]"
 
         return (
             <Flex
