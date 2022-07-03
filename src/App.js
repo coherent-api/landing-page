@@ -33,17 +33,17 @@ function App() {
                 >
                     <Image src={logo} sx={{ height: 80 }} />
                     <Box mx='auto' />
-                    {/*<Link*/}
-                    {/*    sx={{*/}
-                    {/*        color: 'black',*/}
-                    {/*        margin: '20px',*/}
-                    {/*        textDecoration: 'none'*/}
-                    {/*    }}*/}
-                    {/*    target={'_blank'}*/}
-                    {/*    href={'https://polyweave.notion.site/polyweave/Polyweave-0c385b22a30a41a0a9568d6f8c6f46a7'}*/}
-                    {/*>*/}
-                    {/*    About*/}
-                    {/*</Link>*/}
+                    <Link
+                        sx={{
+                            color: 'black',
+                            margin: '20px',
+                            textDecoration: 'none'
+                        }}
+                        target={'_blank'}
+                        href={'https://docs.coherent.sh'}
+                    >
+                        Docs
+                    </Link>
                     <Link
                         sx={{
                             color: 'black',
