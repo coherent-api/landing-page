@@ -33,24 +33,24 @@ function App() {
                 >
                     <Image src={logo} sx={{ height: 80 }} />
                     <Box mx='auto' />
+                    {/*<Link*/}
+                    {/*    sx={{*/}
+                    {/*        color: 'black',*/}
+                    {/*        margin: '20px',*/}
+                    {/*        textDecoration: 'none'*/}
+                    {/*    }}*/}
+                    {/*    target={'_blank'}*/}
+                    {/*    href={'https://polyweave.notion.site/polyweave/Polyweave-0c385b22a30a41a0a9568d6f8c6f46a7'}*/}
+                    {/*>*/}
+                    {/*    About*/}
+                    {/*</Link>*/}
                     <Link
                         sx={{
                             color: 'black',
-                            margin: '20px',
                             textDecoration: 'none'
                         }}
                         target={'_blank'}
-                        href={'https://polyweave.notion.site/polyweave/Polyweave-0c385b22a30a41a0a9568d6f8c6f46a7'}
-                    >
-                        About
-                    </Link>
-                    <Link
-                        sx={{
-                            color: 'black',
-                            textDecoration: 'none'
-                        }}
-                        target={'_blank'}
-                        href={'https://polyweave.notion.site/polyweave/Join-Polyweave-Come-Build-APIs-to-Onboard-the-Next-Billion-Users-Into-Web3-8e9aa6b6ada04ab9bb98327d078cb59b'}
+                        href={'https://coherent-pages.notion.site/Join-Coherent-Come-Build-APIs-to-Onboard-the-Next-Billion-Users-Into-Web3-8e9aa6b6ada04ab9bb98327d078cb59b'}
                     >
                         Careers
                     </Link>
@@ -61,7 +61,7 @@ function App() {
                     py={[3, 4]}
                     width={['100%', '900px']}
                 >
-                    <H1Header width={'100%'} >Powerful APIs for Highly Contextual Blockchain Data</H1Header>
+                    <H1Header width={'100%'} >Powerful APIs for your Web3 User Data</H1Header>
                 </Flex>
                 {/* Action button */}
                 <Flex
@@ -138,7 +138,7 @@ function App() {
                             <Image src={sectionLogo} mb={'10px'} width={'35px'}/>
                         </Flex>
                         <H2Header>Multichain by Default</H2Header>
-                        <BodyText>Easily integrate many chains. Fetch multichain balances and display NFT galleries cross chain</BodyText>
+                        <BodyText>Easily integrate many chains. Fetch multichain balances and transaction histories</BodyText>
                     </Flex>
                 </Flex>
 
@@ -150,8 +150,8 @@ function App() {
                     justifyContent={'center'}
                 >
                     <BodyText>
-                        <Link href={'https://twitter.com/PolyweaveAPI'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-brands fa-twitter"></i></Link>
-                        <Link href={'mailto:contact@polyweave.xyz'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-solid fa-envelope"></i></Link>
+                        <Link href={'https://twitter.com/coherentgg'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-brands fa-twitter"></i></Link>
+                        <Link href={'mailto:contact@conherent.gg'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-solid fa-envelope"></i></Link>
                     </BodyText>
                 </Flex>
             </Flex>
