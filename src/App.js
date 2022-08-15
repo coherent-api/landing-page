@@ -150,8 +150,8 @@ function App() {
                     justifyContent={'center'}
                 >
                     <BodyText>
-                        <Link href={'https://twitter.com/coherentgg'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-brands fa-twitter"></i></Link>
-                        <Link href={'mailto:contact@conherent.gg'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-solid fa-envelope"></i></Link>
+                        <Link href={'https://twitter.com/coherentapi'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-brands fa-twitter"></i></Link>
+                        <Link href={'mailto:contact@conherent.sh'} target={'_blank'} sx={{color: 'black', margin: '5px'}}><i className="fa-solid fa-envelope"></i></Link>
                     </BodyText>
                 </Flex>
             </Flex>
