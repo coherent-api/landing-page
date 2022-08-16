@@ -47,6 +47,17 @@ function App() {
                     <Link
                         sx={{
                             color: 'black',
+                            margin: '20px',
+                            textDecoration: 'none'
+                        }}
+                        target={'_blank'}
+                        href={'https://coherent-pages.notion.site/Coherent-Powerful-APIs-for-Highly-Contextual-Blockchain-User-Data-0c385b22a30a41a0a9568d6f8c6f46a7'}
+                    >
+                        About
+                    </Link>
+                    <Link
+                        sx={{
+                            color: 'black',
                             textDecoration: 'none'
                         }}
                         target={'_blank'}
